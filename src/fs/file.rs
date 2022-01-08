@@ -454,6 +454,15 @@ impl File {
         Ok(())
     }
 
+    /// Stats the file.
+    pub async fn stat(&self) -> io::Result<libc::statx> {
+        let op = Op::stat_fd_all(&self.fd).unwrap();
+        let completion = op.await;
+
+        completion.result?;
+        Ok(unsafe { (*completion.data._stats).assume_init() })
+    }
+
     /// Closes the file.
     ///
     /// The method completes once the close operation has completed,
