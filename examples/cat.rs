@@ -19,8 +19,14 @@ fn main() {
 
     tokio_uring::start(async {
         // Open the file without blocking
-        let file = File::open(path).await.unwrap();
+        let file = tokio_uring::fs::OpenOptions::new()
+            .read(true)
+            .write(true)
+            .open(path)
+            .await
+            .unwrap();
         let mut buf = vec![0; 16 * 1_024];
+        dbg!(file.write_at(b"Hello World".to_vec(), 0).await);
 
         // Track the current position in the file;
         let mut pos = 0;

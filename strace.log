@@ -1,0 +1,304 @@
+execve("./target/debug/examples/cat", ["./target/debug/examples/cat", "test"], 0x7ffd54cdb190 /* 154 vars */) = 0
+brk(NULL)                               = 0x55854e2e2000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa2d3061000
+access("/etc/ld-nix.so.preload", R_OK)  = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/3764bjgx2h9zhfzx3v1vajbih8b79zf8-lorri-keep-env-hack-nix-shell/lib64/glibc-hwcaps/x86-64-v3/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/3764bjgx2h9zhfzx3v1vajbih8b79zf8-lorri-keep-env-hack-nix-shell/lib64/glibc-hwcaps/x86-64-v3", 0x7ffd9876cbc0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/3764bjgx2h9zhfzx3v1vajbih8b79zf8-lorri-keep-env-hack-nix-shell/lib64/glibc-hwcaps/x86-64-v2/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/3764bjgx2h9zhfzx3v1vajbih8b79zf8-lorri-keep-env-hack-nix-shell/lib64/glibc-hwcaps/x86-64-v2", 0x7ffd9876cbc0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/3764bjgx2h9zhfzx3v1vajbih8b79zf8-lorri-keep-env-hack-nix-shell/lib64/tls/x86_64/x86_64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/3764bjgx2h9zhfzx3v1vajbih8b79zf8-lorri-keep-env-hack-nix-shell/lib64/tls/x86_64/x86_64", 0x7ffd9876cbc0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/3764bjgx2h9zhfzx3v1vajbih8b79zf8-lorri-keep-env-hack-nix-shell/lib64/tls/x86_64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/3764bjgx2h9zhfzx3v1vajbih8b79zf8-lorri-keep-env-hack-nix-shell/lib64/tls/x86_64", 0x7ffd9876cbc0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/3764bjgx2h9zhfzx3v1vajbih8b79zf8-lorri-keep-env-hack-nix-shell/lib64/tls/x86_64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/3764bjgx2h9zhfzx3v1vajbih8b79zf8-lorri-keep-env-hack-nix-shell/lib64/tls/x86_64", 0x7ffd9876cbc0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/3764bjgx2h9zhfzx3v1vajbih8b79zf8-lorri-keep-env-hack-nix-shell/lib64/tls/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/3764bjgx2h9zhfzx3v1vajbih8b79zf8-lorri-keep-env-hack-nix-shell/lib64/tls", 0x7ffd9876cbc0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/3764bjgx2h9zhfzx3v1vajbih8b79zf8-lorri-keep-env-hack-nix-shell/lib64/x86_64/x86_64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/3764bjgx2h9zhfzx3v1vajbih8b79zf8-lorri-keep-env-hack-nix-shell/lib64/x86_64/x86_64", 0x7ffd9876cbc0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/3764bjgx2h9zhfzx3v1vajbih8b79zf8-lorri-keep-env-hack-nix-shell/lib64/x86_64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/3764bjgx2h9zhfzx3v1vajbih8b79zf8-lorri-keep-env-hack-nix-shell/lib64/x86_64", 0x7ffd9876cbc0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/3764bjgx2h9zhfzx3v1vajbih8b79zf8-lorri-keep-env-hack-nix-shell/lib64/x86_64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/3764bjgx2h9zhfzx3v1vajbih8b79zf8-lorri-keep-env-hack-nix-shell/lib64/x86_64", 0x7ffd9876cbc0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/3764bjgx2h9zhfzx3v1vajbih8b79zf8-lorri-keep-env-hack-nix-shell/lib64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/3764bjgx2h9zhfzx3v1vajbih8b79zf8-lorri-keep-env-hack-nix-shell/lib64", 0x7ffd9876cbc0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/3764bjgx2h9zhfzx3v1vajbih8b79zf8-lorri-keep-env-hack-nix-shell/lib/glibc-hwcaps/x86-64-v3/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/3764bjgx2h9zhfzx3v1vajbih8b79zf8-lorri-keep-env-hack-nix-shell/lib/glibc-hwcaps/x86-64-v3", 0x7ffd9876cbc0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/3764bjgx2h9zhfzx3v1vajbih8b79zf8-lorri-keep-env-hack-nix-shell/lib/glibc-hwcaps/x86-64-v2/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/3764bjgx2h9zhfzx3v1vajbih8b79zf8-lorri-keep-env-hack-nix-shell/lib/glibc-hwcaps/x86-64-v2", 0x7ffd9876cbc0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/3764bjgx2h9zhfzx3v1vajbih8b79zf8-lorri-keep-env-hack-nix-shell/lib/tls/x86_64/x86_64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/3764bjgx2h9zhfzx3v1vajbih8b79zf8-lorri-keep-env-hack-nix-shell/lib/tls/x86_64/x86_64", 0x7ffd9876cbc0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/3764bjgx2h9zhfzx3v1vajbih8b79zf8-lorri-keep-env-hack-nix-shell/lib/tls/x86_64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/3764bjgx2h9zhfzx3v1vajbih8b79zf8-lorri-keep-env-hack-nix-shell/lib/tls/x86_64", 0x7ffd9876cbc0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/3764bjgx2h9zhfzx3v1vajbih8b79zf8-lorri-keep-env-hack-nix-shell/lib/tls/x86_64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/3764bjgx2h9zhfzx3v1vajbih8b79zf8-lorri-keep-env-hack-nix-shell/lib/tls/x86_64", 0x7ffd9876cbc0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/3764bjgx2h9zhfzx3v1vajbih8b79zf8-lorri-keep-env-hack-nix-shell/lib/tls/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/3764bjgx2h9zhfzx3v1vajbih8b79zf8-lorri-keep-env-hack-nix-shell/lib/tls", 0x7ffd9876cbc0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/3764bjgx2h9zhfzx3v1vajbih8b79zf8-lorri-keep-env-hack-nix-shell/lib/x86_64/x86_64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/3764bjgx2h9zhfzx3v1vajbih8b79zf8-lorri-keep-env-hack-nix-shell/lib/x86_64/x86_64", 0x7ffd9876cbc0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/3764bjgx2h9zhfzx3v1vajbih8b79zf8-lorri-keep-env-hack-nix-shell/lib/x86_64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/3764bjgx2h9zhfzx3v1vajbih8b79zf8-lorri-keep-env-hack-nix-shell/lib/x86_64", 0x7ffd9876cbc0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/3764bjgx2h9zhfzx3v1vajbih8b79zf8-lorri-keep-env-hack-nix-shell/lib/x86_64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/3764bjgx2h9zhfzx3v1vajbih8b79zf8-lorri-keep-env-hack-nix-shell/lib/x86_64", 0x7ffd9876cbc0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/3764bjgx2h9zhfzx3v1vajbih8b79zf8-lorri-keep-env-hack-nix-shell/lib/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/3764bjgx2h9zhfzx3v1vajbih8b79zf8-lorri-keep-env-hack-nix-shell/lib", 0x7ffd9876cbc0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/wl60dr9p15rwf53gxz61ijgisc1zdjc7-glibc-2.33-59/lib/glibc-hwcaps/x86-64-v3/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/wl60dr9p15rwf53gxz61ijgisc1zdjc7-glibc-2.33-59/lib/glibc-hwcaps/x86-64-v3", 0x7ffd9876cbc0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/wl60dr9p15rwf53gxz61ijgisc1zdjc7-glibc-2.33-59/lib/glibc-hwcaps/x86-64-v2/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/wl60dr9p15rwf53gxz61ijgisc1zdjc7-glibc-2.33-59/lib/glibc-hwcaps/x86-64-v2", 0x7ffd9876cbc0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/wl60dr9p15rwf53gxz61ijgisc1zdjc7-glibc-2.33-59/lib/tls/x86_64/x86_64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/wl60dr9p15rwf53gxz61ijgisc1zdjc7-glibc-2.33-59/lib/tls/x86_64/x86_64", 0x7ffd9876cbc0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/wl60dr9p15rwf53gxz61ijgisc1zdjc7-glibc-2.33-59/lib/tls/x86_64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/wl60dr9p15rwf53gxz61ijgisc1zdjc7-glibc-2.33-59/lib/tls/x86_64", 0x7ffd9876cbc0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/wl60dr9p15rwf53gxz61ijgisc1zdjc7-glibc-2.33-59/lib/tls/x86_64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/wl60dr9p15rwf53gxz61ijgisc1zdjc7-glibc-2.33-59/lib/tls/x86_64", 0x7ffd9876cbc0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/wl60dr9p15rwf53gxz61ijgisc1zdjc7-glibc-2.33-59/lib/tls/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/wl60dr9p15rwf53gxz61ijgisc1zdjc7-glibc-2.33-59/lib/tls", 0x7ffd9876cbc0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/wl60dr9p15rwf53gxz61ijgisc1zdjc7-glibc-2.33-59/lib/x86_64/x86_64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/wl60dr9p15rwf53gxz61ijgisc1zdjc7-glibc-2.33-59/lib/x86_64/x86_64", 0x7ffd9876cbc0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/wl60dr9p15rwf53gxz61ijgisc1zdjc7-glibc-2.33-59/lib/x86_64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/wl60dr9p15rwf53gxz61ijgisc1zdjc7-glibc-2.33-59/lib/x86_64", 0x7ffd9876cbc0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/wl60dr9p15rwf53gxz61ijgisc1zdjc7-glibc-2.33-59/lib/x86_64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/wl60dr9p15rwf53gxz61ijgisc1zdjc7-glibc-2.33-59/lib/x86_64", 0x7ffd9876cbc0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/wl60dr9p15rwf53gxz61ijgisc1zdjc7-glibc-2.33-59/lib/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\3402\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0444, st_size=112336, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 103120, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa2d3047000
+mprotect(0x7fa2d304a000, 86016, PROT_NONE) = 0
+mmap(0x7fa2d304a000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fa2d304a000
+mmap(0x7fa2d305b000, 12288, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x14000) = 0x7fa2d305b000
+mmap(0x7fa2d305f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7fa2d305f000
+close(3)                                = 0
+openat(AT_FDCWD, "/nix/store/wl60dr9p15rwf53gxz61ijgisc1zdjc7-glibc-2.33-59/lib/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220{\0\0\0\0\0\0"..., 832) = 832
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0c\364\344b\211\34\n\213\311#\306\205^\6\276\254"..., 68, 824) = 68
+newfstatat(3, "", {st_mode=S_IFREG|0555, st_size=140064, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 127384, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa2d3027000
+mmap(0x7fa2d302e000, 57344, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7fa2d302e000
+mmap(0x7fa2d303c000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7fa2d303c000
+mmap(0x7fa2d3041000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19000) = 0x7fa2d3041000
+mmap(0x7fa2d3043000, 12696, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa2d3043000
+close(3)                                = 0
+openat(AT_FDCWD, "/nix/store/wl60dr9p15rwf53gxz61ijgisc1zdjc7-glibc-2.33-59/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\361\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0555, st_size=1413688, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 1310744, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa2d2ee6000
+mmap(0x7fa2d2ef5000, 618496, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xf000) = 0x7fa2d2ef5000
+mmap(0x7fa2d2f8c000, 626688, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa6000) = 0x7fa2d2f8c000
+mmap(0x7fa2d3025000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x13e000) = 0x7fa2d3025000
+close(3)                                = 0
+openat(AT_FDCWD, "/nix/store/wl60dr9p15rwf53gxz61ijgisc1zdjc7-glibc-2.33-59/lib/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\21\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0555, st_size=18528, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 16528, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa2d2ee1000
+mmap(0x7fa2d2ee2000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7fa2d2ee2000
+mmap(0x7fa2d2ee3000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fa2d2ee3000
+mmap(0x7fa2d2ee4000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fa2d2ee4000
+close(3)                                = 0
+openat(AT_FDCWD, "/nix/store/wl60dr9p15rwf53gxz61ijgisc1zdjc7-glibc-2.33-59/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300x\2\0\0\0\0\0"..., 832) = 832
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+pread64(3, "\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\200\0\300\4\0\0\0\1\0\0\0\0\0\0\0", 32, 848) = 32
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\376R\2\347d\325Yg\215j@\260&\307x8"..., 68, 880) = 68
+newfstatat(3, "", {st_mode=S_IFREG|0555, st_size=2071760, ...}, AT_EMPTY_PATH) = 0
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+mmap(NULL, 1851728, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa2d2d1c000
+mmap(0x7fa2d2d42000, 1323008, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x26000) = 0x7fa2d2d42000
+mmap(0x7fa2d2e85000, 315392, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x169000) = 0x7fa2d2e85000
+mmap(0x7fa2d2ed2000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b5000) = 0x7fa2d2ed2000
+mmap(0x7fa2d2ed8000, 33104, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa2d2ed8000
+close(3)                                = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa2d2d1a000
+mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa2d2d17000
+arch_prctl(ARCH_SET_FS, 0x7fa2d2d17840) = 0
+mprotect(0x7fa2d2ed2000, 12288, PROT_READ) = 0
+mprotect(0x7fa2d2ee4000, 4096, PROT_READ) = 0
+mprotect(0x7fa2d3025000, 4096, PROT_READ) = 0
+mprotect(0x7fa2d3041000, 4096, PROT_READ) = 0
+mprotect(0x7fa2d305f000, 4096, PROT_READ) = 0
+mprotect(0x55854cc94000, 40960, PROT_READ) = 0
+mprotect(0x7fa2d3092000, 8192, PROT_READ) = 0
+set_tid_address(0x7fa2d2d17b10)         = 150678
+set_robust_list(0x7fa2d2d17b20, 24)     = 0
+rt_sigaction(SIGRTMIN, {sa_handler=0x7fa2d302e660, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7fa2d3039ee0}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {sa_handler=0x7fa2d302e700, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART|SA_SIGINFO, sa_restorer=0x7fa2d3039ee0}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+poll([{fd=0, events=0}, {fd=1, events=0}, {fd=2, events=0}], 3, 0) = 0 (Timeout)
+rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fa2d2d57c10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGSEGV, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGSEGV, {sa_handler=0x55854cc43e90, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK|SA_SIGINFO, sa_restorer=0x7fa2d3039ee0}, NULL, 8) = 0
+rt_sigaction(SIGBUS, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGBUS, {sa_handler=0x55854cc43e90, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK|SA_SIGINFO, sa_restorer=0x7fa2d3039ee0}, NULL, 8) = 0
+sigaltstack(NULL, {ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=0}) = 0
+mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fa2d2d14000
+mprotect(0x7fa2d2d14000, 4096, PROT_NONE) = 0
+sigaltstack({ss_sp=0x7fa2d2d15000, ss_flags=0, ss_size=8192}, NULL) = 0
+brk(NULL)                               = 0x55854e2e2000
+brk(0x55854e303000)                     = 0x55854e303000
+openat(AT_FDCWD, "/proc/self/maps", O_RDONLY|O_CLOEXEC) = 3
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+newfstatat(3, "", {st_mode=S_IFREG|0444, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "55854cb85000-55854cb9a000 r--p 0"..., 1024) = 1024
+read(3, "-glibc-2.33-59/lib/libc-2.33.so\n"..., 1024) = 1024
+read(3, "                    /nix/store/w"..., 1024) = 1024
+read(3, "0 103:02 661668                 "..., 1024) = 1024
+read(3, "wf53gxz61ijgisc1zdjc7-glibc-2.33"..., 1024) = 1024
+read(3, " 00001000 103:02 661647         "..., 1024) = 879
+close(3)                                = 0
+sched_getaffinity(150678, 32, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]) = 32
+epoll_create1(EPOLL_CLOEXEC)            = 3
+eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK)   = 4
+epoll_ctl(3, EPOLL_CTL_ADD, 4, {events=EPOLLIN|EPOLLRDHUP|EPOLLET, data={u32=2147483648, u64=2147483648}}) = 0
+fcntl(3, F_DUPFD_CLOEXEC, 3)            = 5
+futex(0x7fa2d2ee5048, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+getrandom("\x0d\x16\x44\x74\x4b\xcf\xf6\xd2\xea\x29\x89\x3c\x6a\x09\x5e\x6c", 16, GRND_NONBLOCK) = 16
+io_uring_setup(256, {flags=0, sq_thread_cpu=0, sq_thread_idle=0, sq_entries=256, cq_entries=512, features=IORING_FEAT_SINGLE_MMAP|IORING_FEAT_NODROP|IORING_FEAT_SUBMIT_STABLE|IORING_FEAT_RW_CUR_POS|IORING_FEAT_CUR_PERSONALITY|IORING_FEAT_FAST_POLL|IORING_FEAT_POLL_32BITS, sq_off={head=0, tail=64, ring_mask=256, ring_entries=264, flags=276, dropped=272, array=8512}, cq_off={head=128, tail=192, ring_mask=260, ring_entries=268, overflow=284, cqes=320, flags=280}}) = 6
+mmap(NULL, 16384, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_POPULATE, 6, 0x10000000) = 0x7fa2d2d10000
+mmap(NULL, 9536, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_POPULATE, 6, 0) = 0x7fa2d2d0d000
+epoll_ctl(5, EPOLL_CTL_ADD, 6, {events=EPOLLIN|EPOLLOUT|EPOLLRDHUP|EPOLLET, data={u32=0, u64=0}}) = 0
+io_uring_enter(6, 1, 0, 0, NULL, 128)   = 1
+epoll_wait(3, [{events=EPOLLIN|EPOLLOUT, data={u32=0, u64=0}}], 1024, -1) = 1
+write(4, "\1\0\0\0\0\0\0\0", 8)         = 8
+write(4, "\1\0\0\0\0\0\0\0", 8)         = 8
+io_uring_enter(6, 1, 0, 0, NULL, 128)   = 1
+epoll_wait(3, [{events=EPOLLIN, data={u32=2147483648, u64=2147483648}}, {events=EPOLLIN|EPOLLOUT, data={u32=0, u64=0}}], 1024, -1) = 2
+write(4, "\1\0\0\0\0\0\0\0", 8)         = 8
+write(4, "\1\0\0\0\0\0\0\0", 8)         = 8
+write(2, "[", 1[)                        = 1
+write(2, "examples/cat.rs", 15examples/cat.rs)         = 15
+write(2, ":", 1:)                        = 1
+write(2, "24", 224)                       = 2
+write(2, "] ", 2] )                       = 2
+write(2, "file.write_at(b\"Hello World\".to_"..., 47file.write_at(b"Hello World".to_vec(), 0).await) = 47
+write(2, " = ", 3 = )                      = 3
+write(2, "(\n", 2(
+)                      = 2
+write(2, "    ", 4    )                     = 4
+write(2, "Err", 3Err)                      = 3
+write(2, "(\n", 2(
+)                      = 2
+write(2, "    ", 4    )                     = 4
+write(2, "    ", 4    )                     = 4
+write(2, "Os", 2Os)                       = 2
+write(2, " {\n", 3 {
+)                     = 3
+write(2, "    ", 4    )                     = 4
+write(2, "    ", 4    )                     = 4
+write(2, "    ", 4    )                     = 4
+write(2, "code", 4code)                     = 4
+write(2, ": ", 2: )                       = 2
+write(2, "9", 19)                        = 1
+write(2, ",\n", 2,
+)                      = 2
+write(2, "    ", 4    )                     = 4
+write(2, "    ", 4    )                     = 4
+write(2, "    ", 4    )                     = 4
+write(2, "kind", 4kind)                     = 4
+write(2, ": ", 2: )                       = 2
+write(2, "Uncategorized", 13Uncategorized)           = 13
+write(2, ",\n", 2,
+)                      = 2
+write(2, "    ", 4    )                     = 4
+write(2, "    ", 4    )                     = 4
+write(2, "    ", 4    )                     = 4
+write(2, "message", 7message)                  = 7
+write(2, ": ", 2: )                       = 2
+write(2, "\"", 1")                       = 1
+write(2, "Bad file descriptor", 19Bad file descriptor)     = 19
+write(2, "\"", 1")                       = 1
+write(2, ",\n", 2,
+)                      = 2
+write(2, "    ", 4    )                     = 4
+write(2, "    ", 4    )                     = 4
+write(2, "}", 1})                        = 1
+write(2, ",\n", 2,
+)                      = 2
+write(2, "    ", 4    )                     = 4
+write(2, ")", 1))                        = 1
+write(2, ",\n", 2,
+)                      = 2
+write(2, "    ", 4    )                     = 4
+write(2, "[", 1[)                        = 1
+write(2, "\n", 1
+)                       = 1
+write(2, "    ", 4    )                     = 4
+write(2, "    ", 4    )                     = 4
+write(2, "72", 272)                       = 2
+write(2, ",\n", 2,
+)                      = 2
+write(2, "    ", 4    )                     = 4
+write(2, "    ", 4    )                     = 4
+write(2, "101", 3101)                      = 3
+write(2, ",\n", 2,
+)                      = 2
+write(2, "    ", 4    )                     = 4
+write(2, "    ", 4    )                     = 4
+write(2, "108", 3108)                      = 3
+write(2, ",\n", 2,
+)                      = 2
+write(2, "    ", 4    )                     = 4
+write(2, "    ", 4    )                     = 4
+write(2, "108", 3108)                      = 3
+write(2, ",\n", 2,
+)                      = 2
+write(2, "    ", 4    )                     = 4
+write(2, "    ", 4    )                     = 4
+write(2, "111", 3111)                      = 3
+write(2, ",\n", 2,
+)                      = 2
+write(2, "    ", 4    )                     = 4
+write(2, "    ", 4    )                     = 4
+write(2, "32", 232)                       = 2
+write(2, ",\n", 2,
+)                      = 2
+write(2, "    ", 4    )                     = 4
+write(2, "    ", 4    )                     = 4
+write(2, "87", 287)                       = 2
+write(2, ",\n", 2,
+)                      = 2
+write(2, "    ", 4    )                     = 4
+write(2, "    ", 4    )                     = 4
+write(2, "111", 3111)                      = 3
+write(2, ",\n", 2,
+)                      = 2
+write(2, "    ", 4    )                     = 4
+write(2, "    ", 4    )                     = 4
+write(2, "114", 3114)                      = 3
+write(2, ",\n", 2,
+)                      = 2
+write(2, "    ", 4    )                     = 4
+write(2, "    ", 4    )                     = 4
+write(2, "108", 3108)                      = 3
+write(2, ",\n", 2,
+)                      = 2
+write(2, "    ", 4    )                     = 4
+write(2, "    ", 4    )                     = 4
+write(2, "100", 3100)                      = 3
+write(2, ",\n", 2,
+)                      = 2
+write(2, "    ", 4    )                     = 4
+write(2, "]", 1])                        = 1
+write(2, ",\n", 2,
+)                      = 2
+write(2, ")", 1))                        = 1
+write(2, "\n", 1
+)                       = 1
+io_uring_enter(6, 1, 0, 0, NULL, 128)   = 1
+epoll_wait(3, [{events=EPOLLIN, data={u32=2147483648, u64=2147483648}}, {events=EPOLLIN|EPOLLOUT, data={u32=0, u64=0}}], 1024, -1) = 2
+write(4, "\1\0\0\0\0\0\0\0", 8)         = 8
+write(4, "\1\0\0\0\0\0\0\0", 8)         = 8
+write(1, "\n", 1)                       = 1
+io_uring_enter(6, 1, 0, 0, NULL, 128)   = 1
+epoll_ctl(5, EPOLL_CTL_DEL, 6, NULL)    = 0
+io_uring_enter(6, 0, 1, IORING_ENTER_GETEVENTS, NULL, 128) = 0
+munmap(0x7fa2d2d0d000, 9536)            = 0
+munmap(0x7fa2d2d10000, 16384)           = 0
+close(6)                                = 0
+close(3)                                = 0
+close(5)                                = 0
+close(4)                                = 0
+sigaltstack({ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=8192}, NULL) = 0
+munmap(0x7fa2d2d14000, 12288)           = 0
+exit_group(0)                           = ?
++++ exited with 0 +++

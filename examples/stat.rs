@@ -16,7 +16,7 @@ fn main() {
     tokio_uring::start(async {
         // Open the file without blocking
         let file = File::open(path).await.unwrap();
-        dbg!(file.stat().await.unwrap().stx_size);
+        dbg!(file.metadata().await.unwrap());
 
         // Include a new line
         println!("");

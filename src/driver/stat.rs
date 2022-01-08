@@ -1,14 +1,14 @@
-use libc::c_char;
-
 use crate::driver::Op;
 
-use std::{io, mem::MaybeUninit};
+use std::io;
 
 use super::SharedFd;
 
 /// Stat a path relative to the current working directory of the caller's process.
 pub(crate) struct Stat {
-    pub(crate) _stats: Box<MaybeUninit<libc::statx>>,
+    _fd: SharedFd,
+
+    pub(crate) statx: Box<libc::statx>,
 }
 
 impl Op<Stat> {
@@ -20,24 +20,21 @@ impl Op<Stat> {
     pub(crate) fn stat_fd(fd: &SharedFd, flags: i32, mask: u32) -> io::Result<Op<Stat>> {
         use io_uring::{opcode, types};
 
-        let mut stat = Stat {
-            _stats: Box::new(MaybeUninit::zeroed()),
-        };
+        let mut statx = Box::new(unsafe { std::mem::zeroed() });
 
-        // Get a reference to the memory. The string will be held by the
-        // operation state and will not be accessed again until the operation
-        // completes.
-        let s_ref = stat._stats.as_mut_ptr();
+        let statx_ptr = &mut *statx as *mut _ as *mut types::statx;
 
-        Op::submit_with(stat, || {
-            opcode::Statx::new(
-                types::Fd(fd.raw_fd()),
-                b"\0".as_ptr().cast(),
-                s_ref as *mut types::statx,
-            )
-            .flags(flags)
-            .mask(mask)
-            .build()
-        })
+        Op::submit_with(
+            Stat {
+                _fd: fd.clone(),
+                statx,
+            },
+            || {
+                opcode::Statx::new(types::Fd(fd.raw_fd()), b"\0".as_ptr().cast(), statx_ptr)
+                    .flags(flags)
+                    .mask(mask)
+                    .build()
+            },
+        )
     }
 }

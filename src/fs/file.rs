@@ -1,6 +1,6 @@
 use crate::buf::{IoBuf, IoBufMut};
 use crate::driver::{Op, SharedFd};
-use crate::fs::OpenOptions;
+use crate::fs::{Metadata, OpenOptions};
 
 use std::fmt;
 use std::io;
@@ -455,12 +455,12 @@ impl File {
     }
 
     /// Stats the file.
-    pub async fn stat(&self) -> io::Result<libc::statx> {
+    pub async fn metadata(&self) -> io::Result<Metadata> {
         let op = Op::stat_fd_all(&self.fd).unwrap();
         let completion = op.await;
 
         completion.result?;
-        Ok(unsafe { (*completion.data._stats).assume_init() })
+        Ok(Metadata(*completion.data.statx))
     }
 
     /// Closes the file.
